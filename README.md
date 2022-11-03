@@ -1,11 +1,17 @@
 # phixify-example
 Example for the @vpmedia/phixify package
 
-## Examples
+## Getting started
 
-Start with installing the package dependencies
+### Install the required tools
+
+https://github.com/vpmedia/phixify#installation-guide
+
+### Install the package dependencies
 
     npm install
+
+## Examples
 
 ### multi project - multi bundle
 
