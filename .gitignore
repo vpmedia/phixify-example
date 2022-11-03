@@ -11,6 +11,15 @@
 # files
 .DS_Store
 
+# generated assets
+/assets/**/audiosprite/
+/assets/**/spritesheet/
+/assets/**/*.avif
+/assets/**/*.webp
+/assets/**/*.mp3
+/assets/**/*.ogg
+/assets/**/*.json
+
 # IntelliJ IDEA
 .idea/
 *.iml

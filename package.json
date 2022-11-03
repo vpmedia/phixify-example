@@ -14,6 +14,10 @@
   },
   "main": "index.js",
   "scripts": {
+    "example1": "phixify config --config-file ./config/.phixify.multi_project_multi_bundle.json",
+    "example2": "phixify config --config-file ./config/.phixify.multi_project_single_bundle.json",
+    "example3": "phixify config --config-file ./config/.phixify.single_project_multi_bundle.json",
+    "example4": "phixify config --config-file ./config/.phixify.single_project_single_bundle.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
