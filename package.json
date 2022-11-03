@@ -23,5 +23,9 @@
   },
   "devDependencies": {
     "@vpmedia/phixify": "^1.0.1"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
   }
 }
