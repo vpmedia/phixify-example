@@ -1,0 +1,22 @@
+{
+  "name": "@vpmedia/phixify-example",
+  "version": "1.0.0",
+  "description": "Example for the @vpmedia/phixify package",
+  "author": "Andras Csizmadia <andras@vpmedia.hu> (www.vpmedia.hu)",
+  "license": "MIT",
+  "homepage": "https://github.com/vpmedia/phixify-example#readme",
+  "bugs": {
+    "url": "https://github.com/vpmedia/phixify-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpmedia/phixify-example.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@vpmedia/phixify": "^1.0.1"
+  }
+}
