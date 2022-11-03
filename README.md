@@ -9,25 +9,25 @@ https://github.com/vpmedia/phixify#installation-guide
 
 ### Install the package dependencies
 
-    npm install
+    $ npm install
 
 ## Examples
 
 ### multi project - multi bundle
 
-    npm start example1
+    $ npm start example1
 
 ### multi project - single bundle
 
-    npm start example2
+    $ npm start example2
 
 ### single project - multi bundle
 
-    npm start example3
+    $ npm start example3
 
 ### single project - single bundle
 
-    npm start example4
+    $ npm start example4
 
 ## License
 
