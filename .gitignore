@@ -12,13 +12,13 @@
 .DS_Store
 
 # generated assets
-/assets/**/audiosprite/
-/assets/**/spritesheet/
-/assets/**/*.avif
-/assets/**/*.webp
-/assets/**/*.mp3
-/assets/**/*.ogg
-/assets/**/*.json
+/public/asset/**/audiosprite/
+/public/asset/**/spritesheet/
+/public/asset/**/*.avif
+/public/asset/**/*.webp
+/public/asset/**/*.mp3
+/public/asset/**/*.ogg
+/public/asset/**/*.json
 
 # IntelliJ IDEA
 .idea/

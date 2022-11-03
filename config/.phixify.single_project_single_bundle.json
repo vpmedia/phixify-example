@@ -1,6 +1,6 @@
 {
-  "basePath": "./assets/single_project_single_bundle/",
-  "assetPath": "/asset/",
+  "basePath": "./public/asset/single_project_single_bundle/",
+  "assetPath": "/asset/single_project_single_bundle/",
   "cache": false,
   "multiBundle": false,
   "engine": {
