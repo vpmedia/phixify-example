@@ -3,6 +3,10 @@ Example for the @vpmedia/phixify package
 
 ## Examples
 
+Start with installing the package dependencies
+
+    npm install
+
 ### multi project - multi bundle
 
     npm start example1
