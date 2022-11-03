@@ -1,5 +1,5 @@
 {
-  "basePath": "./asset/multi_project_multi_bundle/",
+  "basePath": "./assets/multi_project_multi_bundle/",
   "assetPath": "/asset/",
   "cache": false,
   "multiBundle": true,
