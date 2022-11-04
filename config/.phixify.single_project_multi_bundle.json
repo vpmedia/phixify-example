@@ -1,7 +1,7 @@
 {
   "basePath": "./public/asset/single_project_multi_bundle/",
   "assetPath": "/asset/single_project_multi_bundle/",
-  "cache": false,
+  "multiProject": false,
   "multiBundle": true,
   "engine": {
     "pixi_v7": true,
