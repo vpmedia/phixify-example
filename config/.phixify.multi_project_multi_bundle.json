@@ -22,26 +22,12 @@
     "spriteSheetSource": "spritesheet-source"
   },
   "asset": {
-    "image": [
-      "avif",
-      "webp"
-    ],
-    "sound": [
-      "mp3",
-      "ogg"
-    ]
+    "image": ["avif", "webp"],
+    "sound": ["mp3", "ogg"]
   },
   "manifest": {
-    "image": [
-      "avif",
-      "webp",
-      "png"
-    ],
-    "sound": [
-      "mp3",
-      "ogg",
-      "wav"
-    ]
+    "image": ["avif", "webp", "png"],
+    "sound": ["mp3", "ogg", "wav"]
   },
   "tool": {
     "image": "imageMagick",
@@ -64,23 +50,15 @@
     "imageMagick": {
       "path": "magick",
       "opts": {
-        "avif": [
-          "-quality 90"
-        ],
-        "webp": [
-          "-quality 90"
-        ]
+        "avif": ["-quality 90"],
+        "webp": ["-quality 90"]
       }
     },
     "sox": {
       "path": "sox",
       "opts": {
-        "mp3": [
-          "-C 128.50"
-        ],
-        "ogg": [
-          "-C 4"
-        ]
+        "mp3": ["-C 128.50"],
+        "ogg": ["-C 4"]
       }
     },
     "ffmpeg": {
