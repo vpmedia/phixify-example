@@ -3,7 +3,7 @@ html, body {
 }
 
 html {
-  background-color: #000000;
+  background-color: #111111;
 }
 
 body {
@@ -11,4 +11,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#phaser-container {
+  margin: 5px;
+}
+
+#pixi-container {
+  margin: 5px;
 }
