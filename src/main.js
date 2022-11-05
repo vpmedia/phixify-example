@@ -1,9 +1,6 @@
 import "./style.css";
+import { getPhaserApp } from "./phaser/getPhaserApp.js";
+import { getPixiApp } from "./pixi/getPixiApp.js";
 
-document.querySelector("#app").innerHTML = `
-  <div>
-    <h1>Hello Phixify!</h1>
-  </div>
-`;
-
-console.log("Hello Phixify!");
+window.pixiApp = getPixiApp();
+window.phaserApp = getPhaserApp();
