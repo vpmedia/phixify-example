@@ -19,10 +19,3 @@
 /public/asset/**/*.mp3
 /public/asset/**/*.ogg
 /public/asset/**/*.json
-
-# IntelliJ IDEA
-.idea/
-*.iml
-*.ipr
-*.iws
-
