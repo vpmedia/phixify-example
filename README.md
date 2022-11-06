@@ -11,6 +11,11 @@ https://github.com/vpmedia/phixify#installation-guide
 
     $ npm install
 
+## Example to load the assets
+
+    $ npm run example4
+    $ npm run dev
+
 ## Examples to generate the assets and manifests
 
 ### multi project - multi bundle
@@ -28,10 +33,6 @@ https://github.com/vpmedia/phixify#installation-guide
 ### single project - single bundle
 
     $ npm run example4
-
-## Example to load the assets
-
-    $ npm run dev
 
 ## License
 
