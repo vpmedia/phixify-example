@@ -13,12 +13,15 @@ function create(assets) {
   const app = window.pixiApp;
   const bg = new Sprite(assets.bg);
   app.stage.addChild(bg);
+  bg.anchor.set(0.5, 0.5);
+  bg.x = 320;
+  bg.y = 240;
 }
 
 export function getPixiApp() {
   const app = new Application({
-    width: 400,
-    height: 300,
+    width: 640,
+    height: 480,
     resolution: 1,
     backgroundColor: 0x000000,
     hello: true,
