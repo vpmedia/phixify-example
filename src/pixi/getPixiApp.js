@@ -1,4 +1,11 @@
-import { Application, Assets, Sprite } from "pixi.js-legacy";
+import {
+  Application,
+  Assets,
+  AnimatedSprite,
+  Sprite,
+  Text,
+  TextStyle,
+} from "pixi.js-legacy";
 import { sound } from "@pixi/sound";
 
 async function preload() {
@@ -10,12 +17,32 @@ async function preload() {
 }
 
 function create(assets) {
+  console.log("Pixi assets", assets);
   const app = window.pixiApp;
+  // image
   const bg = new Sprite(assets.bg);
   app.stage.addChild(bg);
   bg.anchor.set(0.5, 0.5);
   bg.x = 320;
   bg.y = 240;
+  // text
+  const textStyle = new TextStyle({
+    fontFamily: "Arial",
+    fontSize: 16,
+    fill: "#FFFFFF",
+  });
+  const text = new Text("Hello Pixi.js", textStyle);
+  app.stage.addChild(text);
+  text.x = 20;
+  text.y = 20;
+  // sprite sheet
+  const ss = new AnimatedSprite(Object.values(assets.spritesheet1.textures));
+  app.stage.addChild(ss);
+  ss.anchor.set(0.5, 0.5);
+  ss.x = bg.x;
+  ss.y = bg.y;
+  ss.animationSpeed = 0.2;
+  ss.play();
 }
 
 export function getPixiApp() {

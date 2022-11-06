@@ -9,10 +9,31 @@ function preload() {
 }
 
 function create() {
+  console.log("Phaser cache", this.cache);
+  // image
   const bg = this.add.image(0, 0, "bg");
   bg.setOrigin(0.5, 0.5);
   bg.x = 320;
   bg.y = 240;
+  // text
+  const textStyle = { fontFamily: "Arial", fontSize: 16, color: "#FFFFFF" };
+  this.add.text(20, 20, "Hello Phaser", textStyle);
+  // sprite sheet
+  this.anims.create({
+    key: "spritesheet1",
+    frames: this.anims.generateFrameNames("spritesheet1", {
+      prefix: "frame",
+      end: 6,
+      zeroPad: 0,
+    }),
+    frameRate: 12,
+    repeat: -1,
+  });
+  const ss = this.add.sprite(0, 0, "spritesheet1");
+  ss.setOrigin(0.5, 0.5);
+  ss.x = bg.x;
+  ss.y = bg.y;
+  ss.play("spritesheet1");
 }
 
 export function getPhaserApp() {
