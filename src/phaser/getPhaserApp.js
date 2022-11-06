@@ -15,6 +15,8 @@ function create() {
   bg.setOrigin(0.5, 0.5);
   bg.x = 320;
   bg.y = 240;
+  // audio sprite
+  const audioSprite = this.game.sound.addAudioSprite("audiosprite1");
   // sound
   const sound = this.game.sound.add("hitWall");
   // button
@@ -24,7 +26,10 @@ function create() {
   button.y = 400;
   button.setInteractive({ cursor: "pointer" });
   button.on("pointerup", () => {
-    sound.play();
+    audioSprite.play("impactLight1");
+    setTimeout(() => {
+      sound.play();
+    }, 500);
   });
   // text
   const textStyle = { fontFamily: "Arial", fontSize: 16, color: "#FFFFFF" };
@@ -40,11 +45,11 @@ function create() {
     frameRate: 12,
     repeat: -1,
   });
-  const ss = this.add.sprite(0, 0, "spritesheet1");
-  ss.setOrigin(0.5, 0.5);
-  ss.x = bg.x;
-  ss.y = bg.y;
-  ss.play("spritesheet1");
+  const spriteSheet = this.add.sprite(0, 0, "spritesheet1");
+  spriteSheet.setOrigin(0.5, 0.5);
+  spriteSheet.x = bg.x;
+  spriteSheet.y = bg.y;
+  spriteSheet.play("spritesheet1");
 }
 
 export function getPhaserApp() {

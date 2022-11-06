@@ -25,6 +25,9 @@ function create(assets) {
   bg.anchor.set(0.5, 0.5);
   bg.x = 320;
   bg.y = 240;
+  // audio sprite
+  const audioSprite = assets.audiosprite1;
+  audioSprite.addSprites(assets.audiosprite1_data.spritemap);
   // sound
   const sound = assets.hitWall;
   // button
@@ -36,7 +39,10 @@ function create(assets) {
   button.interactive = true;
   button.cursor = "pointer";
   button.on("pointerup", () => {
-    sound.play();
+    audioSprite.play("impactLight1");
+    setTimeout(() => {
+      sound.play();
+    }, 500);
   });
   // text
   const textStyle = new TextStyle({
@@ -49,13 +55,15 @@ function create(assets) {
   text.x = 20;
   text.y = 20;
   // sprite sheet
-  const ss = new AnimatedSprite(Object.values(assets.spritesheet1.textures));
-  app.stage.addChild(ss);
-  ss.anchor.set(0.5, 0.5);
-  ss.x = bg.x;
-  ss.y = bg.y;
-  ss.animationSpeed = 0.2;
-  ss.play();
+  const spriteSheet = new AnimatedSprite(
+    Object.values(assets.spritesheet1.textures)
+  );
+  app.stage.addChild(spriteSheet);
+  spriteSheet.anchor.set(0.5, 0.5);
+  spriteSheet.x = bg.x;
+  spriteSheet.y = bg.y;
+  spriteSheet.animationSpeed = 0.2;
+  spriteSheet.play();
 }
 
 export function getPixiApp() {
