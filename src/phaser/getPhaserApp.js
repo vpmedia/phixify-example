@@ -15,6 +15,17 @@ function create() {
   bg.setOrigin(0.5, 0.5);
   bg.x = 320;
   bg.y = 240;
+  // sound
+  const sound = this.game.sound.add("hitWall");
+  // button
+  const button = this.add.image(0, 0, "cat");
+  button.setOrigin(0.5, 0.5);
+  button.x = 320;
+  button.y = 400;
+  button.setInteractive({ cursor: "pointer" });
+  button.on("pointerup", () => {
+    sound.play();
+  });
   // text
   const textStyle = { fontFamily: "Arial", fontSize: 16, color: "#FFFFFF" };
   this.add.text(20, 20, "Hello Phaser", textStyle);

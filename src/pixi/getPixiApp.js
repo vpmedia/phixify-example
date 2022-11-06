@@ -25,6 +25,19 @@ function create(assets) {
   bg.anchor.set(0.5, 0.5);
   bg.x = 320;
   bg.y = 240;
+  // sound
+  const sound = assets.hitWall;
+  // button
+  const button = new Sprite(assets.cat);
+  app.stage.addChild(button);
+  button.anchor.set(0.5, 0.5);
+  button.x = 320;
+  button.y = 400;
+  button.interactive = true;
+  button.cursor = "pointer";
+  button.on("pointerup", () => {
+    sound.play();
+  });
   // text
   const textStyle = new TextStyle({
     fontFamily: "Arial",
