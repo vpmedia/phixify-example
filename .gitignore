@@ -18,4 +18,6 @@
 /public/asset/**/*.webp
 /public/asset/**/*.mp3
 /public/asset/**/*.ogg
-/public/asset/**/*.json
+/public/asset/**/spritesheet/*.json
+/public/asset/**/audiosprite/*.json
+/public/asset/**/*_resource.json
