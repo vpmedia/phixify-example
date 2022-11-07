@@ -1,4 +1,6 @@
 # phixify-example
+[![Node.js CI](https://github.com/vpmedia/phixify-example/actions/workflows/node.js.yml/badge.svg)](https://github.com/vpmedia/phixify-example/actions/workflows/node.js.yml)
+
 Example for the @vpmedia/phixify package
 
 ## Getting started
