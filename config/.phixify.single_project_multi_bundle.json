@@ -16,6 +16,7 @@
   "dir": {
     "audioSprite": "audiosprite",
     "audioSpriteSource": "audiosprite-source",
+    "data": "data",
     "image": "image",
     "sound": "sound",
     "spriteSheet": "spritesheet",
