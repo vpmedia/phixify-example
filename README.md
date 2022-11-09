@@ -16,7 +16,7 @@ https://github.com/vpmedia/phixify#installation-guide
 ## Example to load the assets
 
     $ npm run example4
-    $ npm run dev
+    $ npm start
 
 ## Examples to generate the assets and manifests
 

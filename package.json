@@ -15,7 +15,7 @@
   "type": "module",
   "main": "src/index.html",
   "scripts": {
-    "dev": "vite --open",
+    "start": "vite --open",
     "build": "vite build",
     "preview": "vite preview --open",
     "lint": "eslint \"**/*.js\"",
