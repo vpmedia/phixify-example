@@ -55,6 +55,12 @@
         "webp": ["-quality 90"]
       }
     },
+    "sharp": {
+      "opts": {
+        "avif": { "quality": 90 },
+        "webp": { "quality": 90 }
+      }
+    },
     "sox": {
       "path": "sox",
       "opts": {
