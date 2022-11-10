@@ -11,6 +11,9 @@ import { sound } from "@pixi/sound";
 async function preload() {
   await Assets.init({
     manifest: "asset/single_project_single_bundle/pixi_resource.json",
+    texturePreference: {
+      resolution: 1,
+    },
   });
   const assets = await Assets.loadBundle("main");
   create(assets);
