@@ -2,8 +2,6 @@
   "basePath": "./public/asset/single_project_multi_bundle/",
   "assetPath": "/asset/single_project_multi_bundle/",
   "flag": {
-    "multiProject": false,
-    "multiBundle": true,
-    "multiResolution": false
+    "multiBundle": true
   }
 }

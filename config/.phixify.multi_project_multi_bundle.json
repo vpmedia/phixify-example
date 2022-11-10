@@ -3,7 +3,6 @@
   "assetPath": "/asset/multi_project_multi_bundle/",
   "flag": {
     "multiProject": true,
-    "multiBundle": true,
-    "multiResolution": false
+    "multiBundle": true
   }
 }
