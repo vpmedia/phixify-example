@@ -1,11 +1,7 @@
 import { Game, AUTO } from "phaser";
 
 function preload() {
-  this.load.pack(
-    "phaser_resource",
-    "asset/single_project_single_bundle/phaser_resource.json",
-    "main"
-  );
+  this.load.pack("phaser_resource", "asset/single_project_single_bundle/phaser_resource.json", "main");
 }
 
 function create() {

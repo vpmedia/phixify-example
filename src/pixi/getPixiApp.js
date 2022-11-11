@@ -1,11 +1,4 @@
-import {
-  Application,
-  Assets,
-  AnimatedSprite,
-  Sprite,
-  Text,
-  TextStyle,
-} from "pixi.js-legacy";
+import { Application, Assets, AnimatedSprite, Sprite, Text, TextStyle } from "pixi.js-legacy";
 import { sound } from "@pixi/sound";
 
 async function preload() {
@@ -58,9 +51,7 @@ function create(assets) {
   text.x = 20;
   text.y = 20;
   // sprite sheet
-  const spriteSheet = new AnimatedSprite(
-    Object.values(assets.spritesheet1.textures)
-  );
+  const spriteSheet = new AnimatedSprite(Object.values(assets.spritesheet1.textures));
   app.stage.addChild(spriteSheet);
   spriteSheet.anchor.set(0.5, 0.5);
   spriteSheet.x = bg.x;
