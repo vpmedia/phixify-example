@@ -33,7 +33,7 @@
     "pixi.js-legacy": "^7.0.4"
   },
   "devDependencies": {
-    "@vpmedia/phixify": "^1.0.7",
+    "@vpmedia/phixify": "^1.0.8",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
