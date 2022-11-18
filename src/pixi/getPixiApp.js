@@ -58,6 +58,12 @@ function create(assets) {
   spriteSheet.y = bg.y;
   spriteSheet.animationSpeed = 0.2;
   spriteSheet.play();
+  // sprite sheet multi resolution
+  const spriteSheet2 = new Sprite(Object.values(assets.spritesheet2.textures)[0]);
+  app.stage.addChild(spriteSheet2);
+  spriteSheet2.anchor.set(0.5, 0.5);
+  spriteSheet2.x = bg.x;
+  spriteSheet2.y = bg.y + 80;
 }
 
 export function getPixiApp() {

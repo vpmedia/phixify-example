@@ -46,6 +46,11 @@ function create() {
   spriteSheet.x = bg.x;
   spriteSheet.y = bg.y;
   spriteSheet.play("spritesheet1");
+  // sprite sheet multi resolution
+  const spriteSheet2 = this.add.sprite(0, 0, "spritesheet2", "babar-pym-wait");
+  spriteSheet2.setOrigin(0.5, 0.5);
+  spriteSheet2.x = bg.x;
+  spriteSheet2.y = bg.y + 80;
 }
 
 export function getPhaserApp() {
