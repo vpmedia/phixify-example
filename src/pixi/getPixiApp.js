@@ -81,7 +81,7 @@ export function getPixiApp() {
   });
   document.getElementById("pixi-container").appendChild(app.view);
   if (!sound.supported) {
-    // suppress eslint import not used warning but active plugin
+    // suppress eslint import not used warning but activate plugin
     console.warn("Sound is not supported.");
   }
   setTimeout(preload, 1);
