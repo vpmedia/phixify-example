@@ -7,19 +7,17 @@ function preload() {
 function create() {
   console.log("Phaser cache", this.cache);
   // image
-  const bg = this.add.image(0, 0, "bg");
+  const bg = this.add.image(320, 240, "bg");
   bg.setOrigin(0.5, 0.5);
-  bg.x = 320;
-  bg.y = 240;
+  const rainbow = this.add.image(320, 100, "rainbow");
+  rainbow.setOrigin(0.5, 0.5);
   // audio sprite
   const audioSprite = this.game.sound.addAudioSprite("audiosprite1");
   // sound
   const sound = this.game.sound.add("hitWall");
   // button
-  const button = this.add.image(0, 0, "cat");
+  const button = this.add.image(320, 400, "cat");
   button.setOrigin(0.5, 0.5);
-  button.x = 320;
-  button.y = 400;
   button.setInteractive({ cursor: "pointer" });
   button.on("pointerup", () => {
     audioSprite.play("impactLight1");
@@ -41,16 +39,12 @@ function create() {
     frameRate: 12,
     repeat: -1,
   });
-  const spriteSheet = this.add.sprite(0, 0, "spritesheet1");
+  const spriteSheet = this.add.sprite(bg.x, bg.y, "spritesheet1");
   spriteSheet.setOrigin(0.5, 0.5);
-  spriteSheet.x = bg.x;
-  spriteSheet.y = bg.y;
   spriteSheet.play("spritesheet1");
   // sprite sheet multi resolution
-  const spriteSheet2 = this.add.sprite(0, 0, "spritesheet2", "babar-pym-wait");
+  const spriteSheet2 = this.add.sprite(bg.x, bg.y + 80, "spritesheet2", "babar-pym-wait");
   spriteSheet2.setOrigin(0.5, 0.5);
-  spriteSheet2.x = bg.x;
-  spriteSheet2.y = bg.y + 80;
 }
 
 export function getPhaserApp() {

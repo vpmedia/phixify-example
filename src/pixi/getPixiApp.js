@@ -21,6 +21,11 @@ function create(assets) {
   bg.anchor.set(0.5, 0.5);
   bg.x = 320;
   bg.y = 240;
+  const rainbow = new Sprite(assets.rainbow);
+  app.stage.addChild(rainbow);
+  rainbow.anchor.set(0.5, 0.5);
+  rainbow.x = 320;
+  rainbow.y = 100;
   // audio sprite
   const audioSprite = assets.audiosprite1;
   audioSprite.addSprites(assets.audiosprite1_data.spritemap);
