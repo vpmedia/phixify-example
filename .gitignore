@@ -22,3 +22,4 @@
 /public/asset/**/*_resource.json
 /public/asset/**/*@0.5x.*
 /public/asset/**/*@1x.*
+/public/asset/**/data/sound.json
