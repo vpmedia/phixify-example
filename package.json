@@ -34,7 +34,7 @@
     "spectorjs": "^0.9.27"
   },
   "devDependencies": {
-    "@vpmedia/phixify": "^1.2.2",
+    "@vpmedia/phixify": "^1.2.3",
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
