@@ -26,7 +26,7 @@ function create() {
     }, 500);
   });
   // text
-  const textStyle = { fontFamily: "Arial", fontSize: 16, color: "#FFFFFF" };
+  const textStyle = { fontFamily: "Lineal", fontSize: 24, color: "#FFFFFF" };
   this.add.text(20, 20, "Hello Phaser", textStyle);
   // bitmap text
   const bitmapText = this.add.bitmapText(320, 100, "desyrel", "Bitmap Text", 32);

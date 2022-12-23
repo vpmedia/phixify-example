@@ -47,8 +47,8 @@ function create(assets) {
   });
   // text
   const textStyle = new TextStyle({
-    fontFamily: "Arial",
-    fontSize: 16,
+    fontFamily: "Lineal",
+    fontSize: 24,
     fill: "#FFFFFF",
   });
   const text = new Text("Hello Pixi.js", textStyle);
