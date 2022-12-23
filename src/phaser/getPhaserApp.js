@@ -28,6 +28,9 @@ function create() {
   // text
   const textStyle = { fontFamily: "Arial", fontSize: 16, color: "#FFFFFF" };
   this.add.text(20, 20, "Hello Phaser", textStyle);
+  // bitmap text
+  const bitmapText = this.add.bitmapText(320, 100, "desyrel", "Bitmap Text", 32);
+  bitmapText.setOrigin(0.5, 0.5);
   // sprite sheet
   this.anims.create({
     key: "spritesheet1",

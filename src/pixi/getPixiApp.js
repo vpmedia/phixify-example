@@ -1,4 +1,4 @@
-import { Application, Assets, AnimatedSprite, Sprite, Text, TextStyle } from "pixi.js-legacy";
+import { Application, Assets, AnimatedSprite, Sprite, Text, TextStyle, BitmapText } from "pixi.js-legacy";
 import { sound } from "@pixi/sound";
 
 async function preload() {
@@ -55,6 +55,15 @@ function create(assets) {
   app.stage.addChild(text);
   text.x = 20;
   text.y = 20;
+  //
+  const bitmapText = new BitmapText("Bitmap Text", {
+    fontName: "desyrel",
+    fontSize: 32,
+  });
+  bitmapText.x = 320;
+  bitmapText.y = 100;
+  bitmapText.anchor.set(0.5, 0.5);
+  app.stage.addChild(bitmapText);
   // sprite sheet
   const spriteSheet = new AnimatedSprite(Object.values(assets.spritesheet1.textures));
   app.stage.addChild(spriteSheet);
