@@ -4,10 +4,8 @@
 # see: https://git-scm.com/docs/gitignore
 #
 
-# folders
+/dist
 /node_modules
-
-# files
 .DS_Store
 
 # generated assets
