@@ -30,7 +30,7 @@
   "dependencies": {
     "@pixi/sound": "^5.0.0",
     "fontfaceobserver": "^2.3.0",
-    "phaser": "^v3.60.0-beta.17",
+    "phaser": "^v3.60.0-beta.18",
     "pixi.js-legacy": "^7.1.0",
     "spectorjs": "^0.9.27"
   },
@@ -38,7 +38,7 @@
     "@vpmedia/phixify": "^1.2.4",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-import": "^2.27.4",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.3",
     "vite": "^4.0.4"
