@@ -31,7 +31,7 @@
     "@pixi/sound": "^5.1.1",
     "fontfaceobserver": "^2.3.0",
     "phaser": "^v3.60.0-beta.19",
-    "pixi.js-legacy": "^7.1.4",
+    "pixi.js-legacy": "^7.2.0",
     "spectorjs": "^0.9.27"
   },
   "devDependencies": {
