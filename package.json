@@ -42,7 +42,7 @@
     "eslint-plugin-jsdoc": "^40.0.3",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.4",
-    "vite": "^4.1.4"
+    "vite": "^4.2.0"
   },
   "engines": {
     "npm": ">=8.0.0",
