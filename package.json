@@ -30,7 +30,7 @@
   "dependencies": {
     "@pixi/sound": "^5.1.1",
     "fontfaceobserver": "^2.3.0",
-    "phaser": "^v3.60.0-beta.21",
+    "phaser": "^v3.60.0-beta.22",
     "pixi.js-legacy": "^7.2.3",
     "spectorjs": "^0.9.27"
   },
