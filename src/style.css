@@ -22,7 +22,7 @@ body {
 }
 
 @font-face {
-  font-family: Lineal;
+  font-family: 'Lineal';
   src:
     url('/asset/single_project_single_bundle/font/Lineal.woff2') format('woff2'),
     url('/asset/single_project_single_bundle/font/Lineal.woff') format('woff'),
