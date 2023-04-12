@@ -20,6 +20,7 @@
     "preview": "vite preview --open",
     "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
     "stylelint": "stylelint \"**/*.css\"",
+    "typecheck": "tsc",
     "format": "prettier --write \"**/*.{js,json}\"",
     "example1": "phixify all --project-dir project1 --config-file ./config/.phixify.multi_project_multi_bundle.json && phixify all --project-dir project2 --config-file ./config/.phixify.multi_project_multi_bundle.json",
     "example2": "phixify all --project-dir project1 --config-file ./config/.phixify.multi_project_single_bundle.json && phixify all --project-dir project2 --config-file ./config/.phixify.multi_project_single_bundle.json",
