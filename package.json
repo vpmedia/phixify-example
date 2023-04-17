@@ -38,6 +38,7 @@
     "spectorjs": "^0.9.27"
   },
   "devDependencies": {
+    "@types/fontfaceobserver": "^2.1.0",
     "@vpmedia/phixify": "^1.4.0",
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
