@@ -1,9 +1,13 @@
 import { Game, AUTO } from "phaser";
 
+/**
+ */
 function preload() {
   this.load.pack("phaser_resource", "asset/single_project_single_bundle/phaser_resource.json", "main");
 }
 
+/**
+ */
 function create() {
   console.log("Phaser cache", this.cache);
   // image
@@ -50,6 +54,8 @@ function create() {
   spriteSheet2.setOrigin(0.5, 0.5);
 }
 
+/**
+ */
 export function getPhaserApp() {
   const app = new Game({
     type: AUTO,

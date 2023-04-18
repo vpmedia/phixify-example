@@ -1,6 +1,8 @@
 import { Application, Assets, AnimatedSprite, Sprite, Text, TextStyle, BitmapText } from "pixi.js-legacy";
 import { sound } from "@pixi/sound";
 
+/**
+ */
 async function preload() {
   await Assets.init({
     manifest: "asset/single_project_single_bundle/pixi_resource.json",
@@ -12,6 +14,9 @@ async function preload() {
   create(assets);
 }
 
+/**
+ * @param assets
+ */
 function create(assets) {
   console.log("Pixi assets", assets);
   const app = window.pixiApp;
@@ -80,6 +85,8 @@ function create(assets) {
   spriteSheet2.y = bg.y + 80;
 }
 
+/**
+ */
 export function getPixiApp() {
   const app = new Application({
     width: 640,
