@@ -22,7 +22,7 @@
     "lint-fix": "eslint --fix \"**/*.{js,jsx}\"",
     "stylelint": "stylelint \"**/*.css\"",
     "typecheck": "tsc",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "format": "prettier --write \"**/*.{css,js,jsx,json,md}\"",
     "example1": "phixify all --project-dir project1 --config-file ./config/.phixify.multi_project_multi_bundle.json && phixify all --project-dir project2 --config-file ./config/.phixify.multi_project_multi_bundle.json",
     "example2": "phixify all --project-dir project1 --config-file ./config/.phixify.multi_project_single_bundle.json && phixify all --project-dir project2 --config-file ./config/.phixify.multi_project_single_bundle.json",
     "example3": "phixify all --config-file ./config/.phixify.single_project_multi_bundle.json",
