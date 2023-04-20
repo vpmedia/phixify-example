@@ -2,6 +2,7 @@ import { Application, Assets, AnimatedSprite, Sprite, Text, TextStyle, BitmapTex
 import { sound } from "@pixi/sound";
 
 /**
+ * TBD.
  */
 async function preload() {
   await Assets.init({
@@ -15,7 +16,8 @@ async function preload() {
 }
 
 /**
- * @param assets
+ * TBD.
+ * @param {object} assets - TBD.
  */
 function create(assets) {
   console.log("Pixi assets", assets);
@@ -86,6 +88,8 @@ function create(assets) {
 }
 
 /**
+ * TBD.
+ * @returns {Application} TBD.
  */
 export function getPixiApp() {
   const app = new Application({

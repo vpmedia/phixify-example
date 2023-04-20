@@ -1,12 +1,14 @@
 import { Game, AUTO } from "phaser";
 
 /**
+ * TBD.
  */
 function preload() {
   this.load.pack("phaser_resource", "asset/single_project_single_bundle/phaser_resource.json", "main");
 }
 
 /**
+ * TBD.
  */
 function create() {
   console.log("Phaser cache", this.cache);
@@ -55,6 +57,8 @@ function create() {
 }
 
 /**
+ * TBD.
+ * @returns {Game} TBD.
  */
 export function getPhaserApp() {
   const app = new Game({
