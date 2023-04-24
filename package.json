@@ -33,7 +33,7 @@
     "lint-staged": "lint-staged"
   },
   "dependencies": {
-    "@pixi/sound": "^5.1.1",
+    "@pixi/sound": "^5.1.2",
     "fontfaceobserver": "^2.3.0",
     "phaser": "^3.60.0",
     "pixi.js-legacy": "^7.2.4",
