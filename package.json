@@ -55,7 +55,7 @@
     "stylelint": "^15.6.2",
     "stylelint-config-standard": "^33.0.0",
     "typescript": "^5.0.4",
-    "vite": "^4.3.7"
+    "vite": "^4.3.8"
   },
   "engines": {
     "npm": ">=9.0.0",
