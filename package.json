@@ -37,7 +37,7 @@
     "fontfaceobserver": "^2.3.0",
     "phaser": "^3.60.0",
     "pixi.js-legacy": "^7.2.4",
-    "spectorjs": "^0.9.27"
+    "spectorjs": "^0.9.29"
   },
   "devDependencies": {
     "@types/fontfaceobserver": "^2.1.0",
