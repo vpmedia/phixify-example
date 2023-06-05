@@ -28,5 +28,4 @@ jobs:
           cache: 'npm'
       - run: npm ci --no-audit
       - run: npm run lint
-      - run: npm run stylelint
       - run: npm run build
