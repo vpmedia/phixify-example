@@ -44,7 +44,7 @@ function create(assets) {
   button.anchor.set(0.5, 0.5);
   button.x = 320;
   button.y = 400;
-  button.interactive = true;
+  button.eventMode = "static";
   button.cursor = "pointer";
   button.on("pointerup", () => {
     audioSprite.play("impactLight1");
