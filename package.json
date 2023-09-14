@@ -40,12 +40,12 @@
     "spectorjs": "^0.9.29"
   },
   "devDependencies": {
-    "@types/fontfaceobserver": "^2.1.0",
+    "@types/fontfaceobserver": "^2.1.1",
     "@vpmedia/phixify": "^1.5.0",
     "eslint": "^8.49.0",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-jest": "^27.2.3",
-    "eslint-plugin-jsdoc": "^46.6.0",
+    "eslint-plugin-jsdoc": "^46.8.0",
     "husky": "^8.0.3",
     "jest": "^29.7.0",
     "lint-staged": "^14.0.1",
