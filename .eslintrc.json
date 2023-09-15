@@ -3,7 +3,7 @@
   "env": {
     "browser": true,
     "node": true,
-    "es2022": true,
+    "es2023": true,
     "jest": true
   },
   "parserOptions": {
@@ -17,6 +17,10 @@
     "plugin:jest/recommended"
   ],
   "rules": {
+    "import/extensions": [
+      "warn",
+      "always"
+    ],
     "jsdoc/require-jsdoc": [
       "warn",
       {
