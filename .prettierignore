@@ -4,7 +4,15 @@
 # see: https://prettier.io/docs/en/ignore.html
 #
 
+.github/
+.husky/
+.vscode/
+.idea/
+build/
+coverage/
+deploy/
 dist/
-public/
 node_modules/
+public/
+types/
 package-lock.json

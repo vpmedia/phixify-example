@@ -4,6 +4,14 @@
 # see: https://eslint.org/docs/latest/user-guide/configuring/ignoring-code
 #
 
+.github/
+.husky/
+.vscode/
+.idea/
+build/
+coverage/
+deploy/
 dist/
-public/
 node_modules/
+public/
+types/
