@@ -18,8 +18,7 @@
     "start": "vite --open",
     "build": "vite build --emptyOutDir",
     "preview": "vite preview --open",
-    "lint": "eslint \"**/*.{js,jsx}\"",
-    "lint-fix": "eslint --fix \"**/*.{js,jsx}\"",
+    "lint": "eslint --fix \"**/*.{js,jsx}\"",
     "stylelint": "stylelint \"**/*.css\"",
     "typecheck": "tsc",
     "format": "prettier --write \"**/*.{css,js,jsx,json,md}\"",
@@ -40,6 +39,7 @@
     "spectorjs": "^0.9.29"
   },
   "devDependencies": {
+    "@jest/globals": "^29.7.0",
     "@types/fontfaceobserver": "^2.1.1",
     "@vpmedia/phixify": "^1.6.0",
     "eslint": "^8.49.0",
