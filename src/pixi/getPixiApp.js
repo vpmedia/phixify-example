@@ -1,17 +1,17 @@
-import { Application, Assets, AnimatedSprite, Sprite, Text, TextStyle, BitmapText } from "pixi.js-legacy";
-import { sound } from "@pixi/sound";
+import { Application, Assets, AnimatedSprite, Sprite, Text, TextStyle, BitmapText } from 'pixi.js-legacy';
+import { sound } from '@pixi/sound';
 
 /**
  * TBD.
  */
 async function preload() {
   await Assets.init({
-    manifest: "asset/single_project_single_bundle/pixi_resource.json",
+    manifest: 'asset/single_project_single_bundle/pixi_resource.json',
     texturePreference: {
       resolution: 1,
     },
   });
-  const assets = await Assets.loadBundle("main");
+  const assets = await Assets.loadBundle('main');
   create(assets);
 }
 
@@ -20,7 +20,7 @@ async function preload() {
  * @param {object} assets - TBD.
  */
 function create(assets) {
-  console.log("Pixi assets", assets);
+  console.log('Pixi assets', assets);
   const app = window.pixiApp;
   // image
   const bg = new Sprite(assets.bg);
@@ -44,27 +44,27 @@ function create(assets) {
   button.anchor.set(0.5, 0.5);
   button.x = 320;
   button.y = 400;
-  button.eventMode = "static";
-  button.cursor = "pointer";
-  button.on("pointerup", () => {
-    audioSprite.play("impactLight1");
+  button.eventMode = 'static';
+  button.cursor = 'pointer';
+  button.on('pointerup', () => {
+    audioSprite.play('impactLight1');
     setTimeout(() => {
       sound.play();
     }, 500);
   });
   // text
   const textStyle = new TextStyle({
-    fontFamily: "Lineal",
+    fontFamily: 'Lineal',
     fontSize: 24,
-    fill: "#FFFFFF",
+    fill: '#FFFFFF',
   });
-  const text = new Text("Hello Pixi.js", textStyle);
+  const text = new Text('Hello Pixi.js', textStyle);
   app.stage.addChild(text);
   text.x = 20;
   text.y = 20;
   //
-  const bitmapText = new BitmapText("Bitmap Text", {
-    fontName: "desyrel",
+  const bitmapText = new BitmapText('Bitmap Text', {
+    fontName: 'desyrel',
     fontSize: 32,
   });
   bitmapText.x = 320;
@@ -99,10 +99,10 @@ export function getPixiApp() {
     backgroundColor: 0x000000,
     hello: true,
   });
-  document.getElementById("pixi-container").appendChild(app.view);
+  document.getElementById('pixi-container').appendChild(app.view);
   if (!sound.supported) {
     // suppress eslint import not used warning but activate plugin
-    console.warn("Sound is not supported.");
+    console.warn('Sound is not supported.');
   }
   setTimeout(preload, 1);
   return app;
