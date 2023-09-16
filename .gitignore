@@ -4,6 +4,7 @@
 # see: https://git-scm.com/docs/gitignore
 #
 
+coverage/
 /dist
 /node_modules
 .DS_Store
