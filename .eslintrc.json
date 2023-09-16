@@ -10,17 +10,9 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:import/recommended",
-    "plugin:jsdoc/recommended",
-    "plugin:jest/recommended"
-  ],
+  "extends": ["eslint:recommended", "plugin:import/recommended", "plugin:jsdoc/recommended", "plugin:jest/recommended"],
   "rules": {
-    "import/extensions": [
-      "warn",
-      "always"
-    ],
+    "import/extensions": ["warn", "always"],
     "jsdoc/require-jsdoc": [
       "warn",
       {
