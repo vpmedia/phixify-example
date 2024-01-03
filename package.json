@@ -27,7 +27,7 @@
     "example3": "phixify all --config-file ./config/.phixify.single_project_multi_bundle.json",
     "example4": "phixify all --config-file ./config/.phixify.single_project_single_bundle.json",
     "example-all": "npm run example1 && npm run example2 && npm run example3 && npm run example4",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Warning: no test specified\" && exit 0",
     "lefthook:install": "lefthook install",
     "lefthook:uninstall": "lefthook uninstall"
   },
