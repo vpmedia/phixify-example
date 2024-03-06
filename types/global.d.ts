@@ -1,5 +1,5 @@
-import { Application } from "pixi.js-legacy";
 import { Game } from "phaser";
+import { Application } from "pixi.js";
 
 declare global {
   interface Window {
@@ -8,4 +8,5 @@ declare global {
   }
 }
 
-export {};
+export { };
+

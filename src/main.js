@@ -8,5 +8,5 @@ import './style.css';
 // window.spector.displayUI();
 
 await new FontFaceObserver('Lineal').load();
-window.pixiApp = getPixiApp();
+window.pixiApp = await getPixiApp();
 window.phaserApp = getPhaserApp();

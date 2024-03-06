@@ -1,5 +1,5 @@
-import { Application, Assets, AnimatedSprite, Sprite, Text, TextStyle, BitmapText } from 'pixi.js-legacy';
 import { sound } from '@pixi/sound';
+import { AnimatedSprite, Application, Assets, BitmapText, Sprite, Text, TextStyle } from 'pixi.js';
 
 /**
  * TBD.
@@ -58,14 +58,17 @@ function create(assets) {
     fontSize: 24,
     fill: '#FFFFFF',
   });
-  const text = new Text('Hello Pixi.js', textStyle);
+  const text = new Text({ text: 'Hello Pixi.js', style: textStyle });
   app.stage.addChild(text);
   text.x = 20;
   text.y = 20;
   //
-  const bitmapText = new BitmapText('Bitmap Text', {
-    fontName: 'desyrel',
-    fontSize: 32,
+  const bitmapText = new BitmapText({
+    text: 'Bitmap Text',
+    style: {
+      fontFamily: 'desyrel',
+      fontSize: 32,
+    },
   });
   bitmapText.x = 320;
   bitmapText.y = 100;
@@ -85,21 +88,26 @@ function create(assets) {
   spriteSheet2.anchor.set(0.5, 0.5);
   spriteSheet2.x = bg.x;
   spriteSheet2.y = bg.y + 80;
+  spriteSheet2.scale = 0.5;
+  console.log(spriteSheet2);
 }
 
 /**
  * TBD.
- * @returns {Application} TBD.
+ * @returns {Promise<Application>} TBD.
  */
-export function getPixiApp() {
-  const app = new Application({
+export async function getPixiApp() {
+  const app = new Application();
+  const config = {
     width: 640,
     height: 480,
     resolution: 1,
     backgroundColor: 0x000000,
     hello: true,
-  });
-  document.getElementById('pixi-container').appendChild(app.view);
+  };
+  // app.renderer = await autoDetectRenderer(config);
+  await app.init(config);
+  document.getElementById('pixi-container').appendChild(app.canvas);
   if (!sound.supported) {
     // suppress eslint import not used warning but activate plugin
     console.warn('Sound is not supported.');
