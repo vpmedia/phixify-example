@@ -60,7 +60,7 @@
     "vite": "^5.2.11"
   },
   "browserslist": [
-    "> 1%",
+    "> 0.5%",
     "not dead",
     "not op_mini all"
   ],
