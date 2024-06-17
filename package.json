@@ -35,7 +35,7 @@
     "@pixi/sound": "^6.0.0",
     "fontfaceobserver": "^2.3.0",
     "phaser": "^3.80.1",
-    "pixi.js": "^8.1.6",
+    "pixi.js": "^8.1.7",
     "spectorjs": "^0.9.30"
   },
   "devDependencies": {
@@ -47,7 +47,7 @@
     "eslint": "^9.5.0",
     "eslint-plugin-jsdoc": "^48.2.12",
     "eslint-plugin-unicorn": "^54.0.0",
-    "globals": "^15.5.0",
+    "globals": "^15.6.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "lefthook": "^1.6.16",
