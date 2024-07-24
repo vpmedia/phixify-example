@@ -59,7 +59,7 @@ export default [
       'unicorn/numeric-separators-style': 'off',
       'unicorn/prefer-dom-node-append': 'warn',
       'unicorn/prefer-query-selector': 'warn',
-      'no-unused-vars': 'warn',
+      'no-unused-vars': 'off',
       'prefer-arrow-callback': 'warn',
       'prefer-template': 'warn',
       // 'import/extensions': ['warn', 'always'],
