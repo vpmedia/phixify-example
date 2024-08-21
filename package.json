@@ -55,7 +55,7 @@
     "stylelint": "^16.8.2",
     "stylelint-config-standard": "^36.0.1",
     "typescript": "^5.5.4",
-    "vite": "^5.4.1"
+    "vite": "^5.4.2"
   },
   "browserslist": [
     "> 0.5%",
