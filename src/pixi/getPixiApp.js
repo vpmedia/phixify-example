@@ -21,7 +21,7 @@ async function preload() {
  */
 function create(assets) {
   console.log('Pixi assets', assets);
-  const app = window.pixiApp;
+  const app = globalThis.pixiApp;
   // image
   const bg = new Sprite(assets.bg);
   app.stage.addChild(bg);
