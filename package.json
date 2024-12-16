@@ -35,7 +35,7 @@
     "@pixi/sound": "^6.0.1",
     "fontfaceobserver": "^2.3.0",
     "phaser": "^3.87.0",
-    "pixi.js": "^8.6.4",
+    "pixi.js": "^8.6.5",
     "spectorjs": "^0.9.30"
   },
   "devDependencies": {
@@ -52,7 +52,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "lefthook": "^1.9.2",
     "prettier": "^3.4.2",
-    "stylelint": "^16.11.0",
+    "stylelint": "^16.12.0",
     "stylelint-config-standard": "^36.0.1",
     "typescript": "^5.7.2",
     "vite": "^6.0.3"
