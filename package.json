@@ -50,12 +50,12 @@
     "globals": "^15.14.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "lefthook": "^1.10.8",
+    "lefthook": "^1.10.9",
     "prettier": "^3.4.2",
     "stylelint": "^16.13.2",
     "stylelint-config-standard": "^37.0.0",
     "typescript": "^5.7.3",
-    "vite": "^6.0.7"
+    "vite": "^6.0.9"
   },
   "browserslist": [
     "> 0.5%",
