@@ -27,9 +27,7 @@
     "example3": "phixify all --config-file ./config/.phixify.single_project_multi_bundle.json",
     "example4": "phixify all --config-file ./config/.phixify.single_project_single_bundle.json",
     "example-all": "npm run example1 && npm run example2 && npm run example3 && npm run example4",
-    "test": "echo \"Warning: no test specified\" && exit 0",
-    "lefthook:install": "lefthook install",
-    "lefthook:uninstall": "lefthook uninstall"
+    "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "dependencies": {
     "@pixi/sound": "^6.0.1",
@@ -50,7 +48,6 @@
     "globals": "^16.0.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "lefthook": "^1.10.11",
     "prettier": "^3.5.2",
     "stylelint": "^16.14.1",
     "stylelint-config-standard": "^37.0.0",
@@ -60,6 +57,7 @@
   "browserslist": [
     "> 0.5%",
     "not dead",
-    "not op_mini all"
+    "not op_mini all",
+    "iOS >= 14"
   ]
 }
