@@ -42,7 +42,7 @@
     "@types/fontfaceobserver": "^2.1.3",
     "@types/jest": "^29.5.14",
     "@vpmedia/phixify": "^2.0.1",
-    "eslint": "^9.26.0",
+    "eslint": "^9.27.0",
     "eslint-plugin-jsdoc": "^50.6.17",
     "eslint-plugin-unicorn": "^59.0.1",
     "globals": "^16.1.0",
