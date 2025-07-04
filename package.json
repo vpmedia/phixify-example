@@ -33,7 +33,7 @@
     "@pixi/sound": "^6.0.1",
     "fontfaceobserver": "^2.3.0",
     "phaser": "^3.90.0",
-    "pixi.js": "^8.10.2",
+    "pixi.js": "^8.11.0",
     "spectorjs": "^0.9.30"
   },
   "devDependencies": {
@@ -52,7 +52,7 @@
     "stylelint": "^16.21.1",
     "stylelint-config-standard": "^38.0.0",
     "typescript": "^5.8.3",
-    "vite": "^7.0.1"
+    "vite": "^7.0.2"
   },
   "browserslist": [
     "> 0.5%",
