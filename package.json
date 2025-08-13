@@ -43,7 +43,7 @@
     "@types/jest": "^30.0.0",
     "@vpmedia/phixify": "^2.0.1",
     "eslint": "^9.33.0",
-    "eslint-plugin-jsdoc": "^52.0.4",
+    "eslint-plugin-jsdoc": "^54.0.0",
     "eslint-plugin-unicorn": "^60.0.0",
     "globals": "^16.3.0",
     "jest": "^30.0.5",
@@ -52,7 +52,7 @@
     "stylelint": "^16.23.1",
     "stylelint-config-standard": "^39.0.0",
     "typescript": "^5.9.2",
-    "vite": "^7.1.1"
+    "vite": "^7.1.2"
   },
   "browserslist": [
     "> 0.5%",
