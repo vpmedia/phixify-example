@@ -26,11 +26,12 @@
     "example2": "phixify all --project-dir project1 --config-file ./config/.phixify.multi_project_single_bundle.json && phixify all --project-dir project2 --config-file ./config/.phixify.multi_project_single_bundle.json",
     "example3": "phixify all --config-file ./config/.phixify.single_project_multi_bundle.json",
     "example4": "phixify all --config-file ./config/.phixify.single_project_single_bundle.json",
-    "example-all": "npm run example1 && npm run example2 && npm run example3 && npm run example4",
+    "example-all": "pnpm run example1 && pnpm run example2 && pnpm run example3 && pnpm run example4",
     "test": "vitest --coverage --pass-with-no-tests"
   },
   "dependencies": {
     "@pixi/sound": "^6.0.1",
+    "@types/node": "^24.3.0",
     "fontfaceobserver": "^2.3.0",
     "phaser": "^3.90.0",
     "pixi.js": "^8.12.0",
@@ -50,7 +51,7 @@
     "stylelint": "^16.23.1",
     "stylelint-config-standard": "^39.0.0",
     "typescript": "^5.9.2",
-    "vite": "^7.1.2",
+    "vite": "^7.1.3",
     "vitest": "^3.2.4"
   },
   "browserslist": [

@@ -12,30 +12,30 @@ https://github.com/vpmedia/phixify#installation-guide
 
 ### Install the package dependencies
 
-    $ npm install
+    $ pnpm install
 
 ## Example to load the assets
 
-    $ npm run example4
-    $ npm start
+    $ pnpm run example4
+    $ pnpm start
 
 ## Examples to generate the assets and manifests
 
 ### multi project - multi bundle
 
-    $ npm run example1
+    $ pnpm run example1
 
 ### multi project - single bundle
 
-    $ npm run example2
+    $ pnpm run example2
 
 ### single project - multi bundle
 
-    $ npm run example3
+    $ pnpm run example3
 
 ### single project - single bundle
 
-    $ npm run example4
+    $ pnpm run example4
 
 ## License
 
