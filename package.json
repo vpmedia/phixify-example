@@ -31,10 +31,10 @@
   },
   "dependencies": {
     "@pixi/sound": "^6.0.1",
-    "@types/node": "^24.3.0",
+    "@types/node": "^24.3.1",
     "fontfaceobserver": "^2.3.0",
     "phaser": "^3.90.0",
-    "pixi.js": "^8.13.0",
+    "pixi.js": "^8.13.1",
     "spectorjs": "^0.9.30"
   },
   "devDependencies": {
