@@ -21,7 +21,7 @@
     "lint": "eslint \"**/*.{js,jsx}\"",
     "stylelint": "stylelint \"**/*.css\" --ignore-path .gitignore",
     "typecheck": "tsc",
-    "format": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,md,css}\"",
+    "format": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,css}\"",
     "example1": "phixify all --project-dir project1 --config-file ./config/.phixify.multi_project_multi_bundle.json && phixify all --project-dir project2 --config-file ./config/.phixify.multi_project_multi_bundle.json",
     "example2": "phixify all --project-dir project1 --config-file ./config/.phixify.multi_project_single_bundle.json && phixify all --project-dir project2 --config-file ./config/.phixify.multi_project_single_bundle.json",
     "example3": "phixify all --config-file ./config/.phixify.single_project_multi_bundle.json",
