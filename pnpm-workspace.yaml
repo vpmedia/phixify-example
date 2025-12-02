@@ -1,3 +1,7 @@
 onlyBuiltDependencies:
   - esbuild
   - sharp
+trustPolicy: no-downgrade
+minimumReleaseAge: 2880
+minimumReleaseAgeExclude:
+  - '@vpmedia/phixify'
