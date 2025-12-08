@@ -12,6 +12,7 @@ export default defineConfig({
       },
     },
   },
+  // @ts-expect-error TS2769
   test: {
     globals: true,
     environment: 'node', // 'node' or 'jsdom'

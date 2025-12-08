@@ -1,10 +1,10 @@
+import { defineConfig } from 'eslint/config';
 import js from '@eslint/js';
 import jsdocPlugin from 'eslint-plugin-jsdoc';
 import unicornPlugin from 'eslint-plugin-unicorn';
 import globals from 'globals';
 
-/** @type { import('eslint').Linter.Config[] } */
-export default [
+export default defineConfig([
   {
     ignores: [
       '.github/**/*.*',
@@ -58,4 +58,4 @@ export default [
       'unicorn/prefer-query-selector': 'warn',
     },
   },
-];
+]);

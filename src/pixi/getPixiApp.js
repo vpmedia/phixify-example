@@ -75,6 +75,7 @@ function create(assets) {
   bitmapText.anchor.set(0.5, 0.5);
   app.stage.addChild(bitmapText);
   // sprite sheet
+  // @ts-expect-error TS2769
   const spriteSheet = new AnimatedSprite(Object.values(assets.spritesheet1.textures));
   app.stage.addChild(spriteSheet);
   spriteSheet.anchor.set(0.5, 0.5);
