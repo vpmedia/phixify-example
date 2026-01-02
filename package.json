@@ -15,19 +15,20 @@
   "type": "module",
   "main": "src/index.html",
   "scripts": {
-    "start": "vite --open",
     "build": "vite build --emptyOutDir",
-    "preview": "vite preview --open",
-    "lint": "eslint \"**/*.{js,jsx}\"",
-    "stylelint": "stylelint \"**/*.css\" --ignore-path .gitignore",
-    "typecheck": "tsc",
-    "format": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,css}\"",
+    "check": "pnpm lint && pnpm test && pnpm typecheck",
+    "example-all": "pnpm run example1 && pnpm run example2 && pnpm run example3 && pnpm run example4",
     "example1": "phixify all --project-dir project1 --config-file ./config/.phixify.multi_project_multi_bundle.json && phixify all --project-dir project2 --config-file ./config/.phixify.multi_project_multi_bundle.json",
     "example2": "phixify all --project-dir project1 --config-file ./config/.phixify.multi_project_single_bundle.json && phixify all --project-dir project2 --config-file ./config/.phixify.multi_project_single_bundle.json",
     "example3": "phixify all --config-file ./config/.phixify.single_project_multi_bundle.json",
     "example4": "phixify all --config-file ./config/.phixify.single_project_single_bundle.json",
-    "example-all": "pnpm run example1 && pnpm run example2 && pnpm run example3 && pnpm run example4",
-    "test": "vitest --coverage --pass-with-no-tests"
+    "format": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,css}\"",
+    "lint": "eslint \"**/*.{js,jsx}\"",
+    "preview": "vite preview --open",
+    "start": "vite --open",
+    "stylelint": "stylelint \"**/*.css\" --ignore-path .gitignore",
+    "test": "vitest --coverage --pass-with-no-tests",
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@pixi/sound": "^6.0.1",

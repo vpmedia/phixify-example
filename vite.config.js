@@ -1,3 +1,5 @@
+/// <reference types="vitest/config" />
+
 import { defineConfig } from 'vite';
 
 export default defineConfig({
@@ -12,7 +14,7 @@ export default defineConfig({
       },
     },
   },
-  // @ts-expect-error TS2769
+  // @ts-expect-error
   test: {
     globals: true,
     environment: 'node', // 'node' or 'jsdom'
