@@ -17,8 +17,7 @@ export default defineConfig({
   // @ts-expect-error
   test: {
     globals: true,
-    environment: 'node', // 'node' or 'jsdom'
-    // setupFiles: ['./src/lib/test/core.js'],
+    environment: 'node',
     watch: false,
     coverage: {
       provider: 'v8',
