@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  vite: ^8.0.0-beta.9
+  vite: 8.0.0-beta.9
 
 importers:
 
@@ -985,7 +985,7 @@ packages:
     resolution: {integrity: sha512-+ZtQhLA3lDh1tI2wxe3yMsGzbp7uuJSWBM1iTIKCbppWTSBN09PUC+L+fyNlQApQoR+Ps8twt2pbSSXg2fQVEQ==}
     peerDependencies:
       msw: ^2.4.9
-      vite: ^8.0.0-beta.9
+      vite: 8.0.0-beta.9
     peerDependenciesMeta:
       msw:
         optional: true
