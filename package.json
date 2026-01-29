@@ -58,12 +58,12 @@
     "stylelint-config-standard": "^40.0.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.54.0",
-    "vite": "8.0.0-beta.9",
+    "vite": "8.0.0-beta.11",
     "vitest": "^4.0.18"
   },
   "pnpm": {
     "overrides": {
-      "vite": "8.0.0-beta.9"
+      "vite": "8.0.0-beta.11"
     }
   }
 }
