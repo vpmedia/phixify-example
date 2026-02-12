@@ -23,7 +23,7 @@
     "example3": "phixify all --config-file ./config/.phixify.single_project_multi_bundle.json",
     "example4": "phixify all --config-file ./config/.phixify.single_project_single_bundle.json",
     "format": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,css}\"",
-    "lint": "oxlint \"**/*.{js,jsx}\"",
+    "lint": "oxlint src",
     "preview": "vite preview --open",
     "start": "vite --open",
     "test": "vitest --coverage --pass-with-no-tests",
