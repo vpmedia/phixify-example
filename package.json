@@ -33,7 +33,7 @@
     "@pixi/sound": "^6.0.1",
     "fontfaceobserver": "^2.3.0",
     "phaser": "^3.90.0",
-    "pixi.js": "^8.17.0",
+    "pixi.js": "^8.17.1",
     "spectorjs": "^0.9.30"
   },
   "devDependencies": {
@@ -44,8 +44,8 @@
     "@vitest/coverage-v8": "^4.1.0",
     "@vpmedia/phixify": "^2.2.0",
     "jsdom": "^29.0.0",
-    "oxfmt": "^0.40.0",
-    "oxlint": "^1.55.0",
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
     "oxlint-tsgolint": "^0.17.0",
     "typescript": "6.0.0-dev.20260315",
     "vite": "^8.0.0",
