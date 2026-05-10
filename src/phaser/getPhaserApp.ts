@@ -1,16 +1,10 @@
 import { AUTO, Game, Scene } from 'phaser';
 
 class MainScene extends Scene {
-  /**
-   * TBD.
-   */
   preload() {
     this.load.pack('phaser_resource', 'asset/single_project_single_bundle/phaser_resource.json', 'main');
   }
 
-  /**
-   * TBD.
-   */
   create() {
     console.log('Phaser cache', this.cache);
     // image
@@ -58,11 +52,7 @@ class MainScene extends Scene {
   }
 }
 
-/**
- * TBD.
- * @returns {Game} TBD.
- */
-export function getPhaserApp() {
+export function getPhaserApp(): Game {
   const app = new Game({
     type: AUTO,
     parent: 'phaser-container',

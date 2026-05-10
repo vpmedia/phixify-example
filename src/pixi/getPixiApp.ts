@@ -1,9 +1,6 @@
 import { sound } from '@pixi/sound';
 import { AnimatedSprite, Application, Assets, BitmapText, Sprite, Text, TextStyle } from 'pixi.js';
 
-/**
- * TBD.
- */
 async function preload() {
   await Assets.init({
     manifest: 'asset/single_project_single_bundle/pixi_resource.json',
@@ -15,11 +12,7 @@ async function preload() {
   create(assets);
 }
 
-/**
- * TBD.
- * @param {object} assets - TBD.
- */
-function create(assets) {
+function create(assets: Record<string, any>) {
   console.log('Pixi assets', assets);
   const app = globalThis.pixiApp;
   // image
@@ -93,11 +86,7 @@ function create(assets) {
   console.log(spriteSheet2);
 }
 
-/**
- * TBD.
- * @returns {Promise<Application>} TBD.
- */
-export async function getPixiApp() {
+export async function getPixiApp(): Promise<Application> {
   const app = new Application();
   const config = {
     width: 640,
@@ -108,7 +97,7 @@ export async function getPixiApp() {
   };
   // app.renderer = await autoDetectRenderer(config);
   await app.init(config);
-  document.getElementById('pixi-container').appendChild(app.canvas);
+  document.getElementById('pixi-container')!.appendChild(app.canvas);
   if (!sound.supported) {
     // suppress eslint import not used warning but activate plugin
     console.warn('Sound is not supported.');

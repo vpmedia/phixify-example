@@ -5,8 +5,6 @@
     "module": "NodeNext",
     "moduleResolution": "nodenext",
     "types": ["node", "vite/client", "vitest/globals"],
-    "allowJs": true,
-    "checkJs": true,
     "declaration": true,
     "noEmit": true,
     "declarationDir": "./build/types",
@@ -18,5 +16,5 @@
     "strictNullChecks": false,
     "skipLibCheck": true
   },
-  "include": ["*.js", "./src/**/*", "./types/**/*"]
+  "include": ["*.ts", "./src/**/*", "./types/**/*"]
 }

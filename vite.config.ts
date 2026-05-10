@@ -1,6 +1,4 @@
-/// <reference types="vitest/config" />
-
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
   root: './src',
@@ -14,7 +12,6 @@ export default defineConfig({
       },
     },
   },
-  // @ts-expect-error
   test: {
     globals: true,
     environment: 'node',
