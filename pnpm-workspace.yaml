@@ -7,3 +7,4 @@ trustPolicyExclude:
 minimumReleaseAge: 1440
 minimumReleaseAgeExclude:
   - '@vpmedia/phixify'
+blockExoticSubdeps: true
