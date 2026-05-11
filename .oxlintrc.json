@@ -3,7 +3,6 @@
   "env": { "browser": true },
   "plugins": [
     "eslint",
-    "jsdoc",
     "jsx-a11y",
     "oxc",
     "promise",
@@ -13,15 +12,35 @@
     "unicorn"
   ],
   "categories": {
-    "correctness": "warn",
-    "nursery": "warn",
-    "pedantic": "warn",
-    "perf": "warn",
-    "restriction": "warn",
-    "style": "warn",
-    "suspicious": "warn"
+    "correctness": "error",
+    "nursery": "off",
+    "pedantic": "error",
+    "perf": "error",
+    "restriction": "error",
+    "style": "error",
+    "suspicious": "error"
   },
   "rules": {
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "capitalized-comments": "off",
+    "func-style": "off",
+    "id-length": "off",
+    "max-lines-per-function": "off",
+    "max-statements": "off",
+    "no-console": "off",
+    "no-magic-numbers": "off",
+    "no-shadow": "off",
+    "no-use-before-define": "off",
+    "sort-imports": "off",
+    "sort-keys": "off",
+    "oxc/no-async-await": "off",
+    "typescript/explicit-function-return-type": "off",
+    "typescript/explicit-member-accessibility": "off",
+    "typescript/no-explicit-any": "off",
+    "typescript/no-non-null-assertion": "off",
+    "unicorn/filename-case": "off",
+    "unicorn/numeric-separators-style": "off",
+    "unicorn/prefer-dom-node-append": "off",
+    "unicorn/prefer-query-selector": "off"
   }
 }
