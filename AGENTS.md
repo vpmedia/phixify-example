@@ -24,7 +24,6 @@ Example project for `@vpmedia/phixify`. Showcases four asset/manifest configurat
 - OXC (oxlint, oxfmt): https://oxc.rs/llms.txt
 - Phaser 3: https://context7.com/phaserjs/phaser/llms.txt
 - Pixi.js: https://pixijs.com/8.x/llms.txt
-- TypeScript: https://www.typescriptlang.org/llms.txt
 - Vite: https://vite.dev/llms.txt
 - Vitest: https://vitest.dev/llms.txt
 
