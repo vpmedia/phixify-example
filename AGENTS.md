@@ -13,7 +13,7 @@ Example project for `@vpmedia/phixify`. Showcases four asset/manifest configurat
 - **Libs:** `fontfaceobserver`, `spectorjs` (WebGL inspector)
 - **Asset Pipeline:** `@vpmedia/phixify`
 - **Build/Dev Server:** Vite
-- **Testing:** Vitest, @vitest/coverage-v8, jsdom
+- **Testing:** Vitest, @vitest/coverage-v8, happy-dom
 - **Lint/Format:** oxlint (+ `oxlint-tsgolint`), oxfmt
 - **Type Checking:** TypeScript
 - **Tooling:** lefthook (git hooks), commitlint (conventional commits)
@@ -24,6 +24,7 @@ Example project for `@vpmedia/phixify`. Showcases four asset/manifest configurat
 - OXC (oxlint, oxfmt): https://oxc.rs/llms.txt
 - Phaser 3: https://context7.com/phaserjs/phaser/llms.txt
 - Pixi.js: https://pixijs.com/8.x/llms.txt
+- TypeScript: https://context7.com/websites/typescriptlang/llms.txt
 - Vite: https://vite.dev/llms.txt
 - Vitest: https://vitest.dev/llms.txt
 
