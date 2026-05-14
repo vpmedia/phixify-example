@@ -9,7 +9,6 @@ Example project for `@vpmedia/phixify`. Showcases four asset/manifest configurat
 - **Language:** TypeScript (ESM)
 - **Runtime:** Node.js / Browser
 - **Package Manager:** pnpm (workspaces)
-- **Domain:** Example project showcasing `@vpmedia/phixify` asset/manifest configurations
 - **Game Engines:** `phaser` v3, `pixi.js` v8 (+ `@pixi/sound`)
 - **Libs:** `fontfaceobserver`, `spectorjs` (WebGL inspector)
 - **Asset Pipeline:** `@vpmedia/phixify`
@@ -53,9 +52,9 @@ Example project for `@vpmedia/phixify`. Showcases four asset/manifest configurat
 
 ## Conventions
 
-- **Commits:** Conventional Commits with custom rules (header ≤ 100, body line ≤ 100, no sentence/start/pascal/upper-case subjects)
+- **Commits:** Conventional Commits (`@commitlint/config-conventional`)
 - **Modules:** ESM only
-- **Style:** Enforced by oxlint + oxfmt
+- **Style:** Enforced by oxlint + oxfmt — do not hand-format
 
 ## Testing
 
