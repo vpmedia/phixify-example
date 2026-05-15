@@ -44,11 +44,11 @@
     "@vitest/coverage-v8": "^4.1.6",
     "@vpmedia/phixify": "^2.2.0",
     "happy-dom": "^20.9.0",
-    "oxfmt": "^0.48.0",
+    "oxfmt": "^0.49.0",
     "oxlint": "^1.64.0",
     "oxlint-tsgolint": "^0.22.1",
     "typescript": "^6.0.3",
-    "vite": "^8.0.12",
+    "vite": "^8.0.13",
     "vitest": "^4.1.6"
   }
 }
