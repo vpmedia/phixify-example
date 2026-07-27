@@ -6,17 +6,7 @@ Example project for `@vpmedia/phixify`. Showcases four asset/manifest configurat
 
 ## Tech Stack
 
-- **Language:** TypeScript (ESM)
-- **Runtime:** Node.js / Browser
-- **Package Manager:** pnpm (workspaces)
-- **Game Engines:** `phaser` v3, `pixi.js` v8 (+ `@pixi/sound`)
-- **Libs:** `fontfaceobserver`, `spectorjs` (WebGL inspector)
-- **Asset Pipeline:** `@vpmedia/phixify`
-- **Build/Dev Server:** Vite
-- **Testing:** Vitest, @vitest/coverage-v8, happy-dom
-- **Lint/Format:** oxlint (+ `oxlint-tsgolint`), oxfmt
-- **Type Checking:** TypeScript
-- **Tooling:** lefthook (git hooks), commitlint (conventional commits)
+Read [package.json](package.json) for the language, runtime, dependencies and tooling.
 
 ## Documentation
 
@@ -38,17 +28,6 @@ Example project for `@vpmedia/phixify`. Showcases four asset/manifest configurat
 - **Test:** `pnpm test`
 - **Lint / Format / Typecheck:** `pnpm lint` / `pnpm format` / `pnpm typecheck`
 - **All checks:** `pnpm check`
-
-## Project Structure
-
-- `src/index.html` — entry HTML
-- `src/main.ts` — application entry point
-- `src/phaser/`, `src/pixi/` — engine-specific demo code
-- `src/style.css` — styles
-- `config/` — phixify configuration variants (multi/single project & bundle)
-- `public/` — static assets served as-is
-- `types/` — local type augmentations
-- `dist/` — Vite build output (gitignored)
 
 ## Conventions
 
